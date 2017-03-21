@@ -1,5 +1,7 @@
 # Chef
 .chef/*.pem
+/root/chef-repo-drj/chef-repo/*.pem
+
 .chef/encrypted_data_bag_secret
 
 # Ruby
