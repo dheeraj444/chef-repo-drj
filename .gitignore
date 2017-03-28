@@ -26,7 +26,7 @@ nodes
 # !/cookbooks/chef_workstation/files/default/bundler/Gemfile.lock
 # cookbooks/*
 # !cookbooks/chef_workstation
-
+private_key
 # ##Chef
 # .kitchen/
 # .vagrant
