@@ -8,7 +8,8 @@ Vagrant.configure("2") do |config|
     chef.validation_key_path = "/root/chef-repo-drj/chef-repo/.chef/drj444.pem"
     chef.validation_client_name = "drj444"
     chef.node_name = "centos-server"
-#    chef.add_recipe "webserver"
+    chef.add_recipe "webserver"
     chef.add_recipe "log"
+    chef.add_recipe "tomcat8"
   end
 end
