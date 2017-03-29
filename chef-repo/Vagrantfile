@@ -10,6 +10,6 @@ Vagrant.configure("2") do |config|
     chef.node_name = "centos-server"
     chef.add_recipe "webserver"
     chef.add_recipe "log"
-    chef.add_recipe "tomcat8"
+#    chef.add_recipe "tomcat8"
   end
 end
